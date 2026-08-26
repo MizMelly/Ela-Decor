@@ -26,10 +26,9 @@ export default function SpaceFooter() {
             grid
             grid-cols-1
             gap-10
-            text-center
+            text-left
             sm:grid-cols-2
             sm:gap-12
-            sm:text-left
             lg:grid-cols-[1.3fr_1fr_1fr]
             lg:gap-16
           "
@@ -45,13 +44,13 @@ export default function SpaceFooter() {
               Maison Èla
             </h2>
 
-            <p className="mx-auto mt-4 max-w-70 text-[13px] font-light leading-[1.8] text-[#B9AA9C] sm:mx-0">
+            <p className="mt-4 max-w-70 text-[13px] font-light leading-[1.8] text-[#B9AA9C]">
               Elegant décor pieces for beautiful spaces.
             </p>
           </div>
 
           {/* Navigation */}
-          <nav className="flex flex-col items-center gap-4 sm:items-start">
+          <nav className="flex flex-col items-start gap-4">
             {navLinks.map((link) => (
               <a
                 key={link.label}
@@ -74,7 +73,7 @@ export default function SpaceFooter() {
           </nav>
 
           {/* Social */}
-          <div className="flex flex-col items-center sm:items-start lg:items-end">
+          <div className="flex flex-col items-start lg:items-end">
             <p className="text-[10px] font-medium uppercase tracking-[0.42em] text-[#C19A58]">
               Follow
             </p>
@@ -115,7 +114,7 @@ export default function SpaceFooter() {
         <div className="mt-10 h-px w-full bg-[#5A4A3D] sm:mt-12" />
 
         {/* Bottom Bar */}
-        <p className="mt-6 text-center text-[9px] uppercase tracking-[0.14em] text-[#8E8176] sm:text-left sm:text-[10px] sm:tracking-[0.18em]">
+        <p className="mt-6 text-left text-[9px] uppercase tracking-[0.14em] text-[#8E8176] sm:text-[10px] sm:tracking-[0.18em]">
           © {year} Maison Èla. All rights reserved.
         </p>
       </div>
