@@ -9,8 +9,6 @@ import QuoteSection from "./components/QuoteSection";
 import SpaceCta from "./components/SpaceCta";
 
 
-
-
 function App() {
   return (
     <div className="min-h-screen bg-[#F3EEE5]">
